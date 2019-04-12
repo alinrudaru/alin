@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
-printf("HEllo wordl! \n");
+int main(char person[30])
+printf("HEllo %s! ", person);
 return 0;
 }
